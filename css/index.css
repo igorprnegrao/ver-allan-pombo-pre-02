@@ -215,7 +215,7 @@ section.principal-manifesto {
     padding: 40px 4%;
 }
 
-section.principal-manifesto .flex {
+section.principal-manifesto .flex-manifest {
     align-items: center;
     justify-content: center;
     gap: 90px;
@@ -274,7 +274,7 @@ section.principal-manifesto  {
         display: none;
     }
 
-       /*--- mobile ---*/
+    /*--- mobile ---*/
 
     .menu-mobile {
         background-color: rgb(3, 127, 3);
@@ -337,6 +337,62 @@ section.principal-manifesto  {
     .btn-abrir-menu i {
         margin-left: 20px;
     }
-}
+
+    /*--- ZAP ---*/
+    .icon {
+        right: 2rem;
+        font-size: 35px;
+        width: 60px;
+        height: 60px;
+        top: 300px;
+    }
+    
+    .icon .fab {
+        padding-top: 10px;
+    }
+
+    .h2-icon {
+        font-size: 15px;
+        margin-top: -44px;
+    }
+
+    /*--- MANIFESTO ---*/
 
     
+    .manifesto {
+        background-color: #1717177c;
+        padding: 1.25rem 0;
+        margin:auto 0;
+        width: 100vw;
+    }
+    
+    .manifesto-titulo img {
+        align-items: center;
+        width: 200px;
+        margin-left: 7rem;
+    }
+
+    .manifesto-img img {
+    width: 400px;
+    }
+
+    section.principal-manifesto .flex-manifest {
+        gap: 1px;
+    }
+
+    .manifesto-text h2 {
+        font-size: 35px;
+        margin-left: 10px;
+        
+    }
+
+    section.principal-manifesto .manifesto-text p {
+        padding: 0 0.5rem;
+    }
+
+    section.principal-manifesto .manifesto-img img {
+        width: 85vw;
+        margin-top: -50px;
+        margin-bottom: -40px;
+    }
+}
