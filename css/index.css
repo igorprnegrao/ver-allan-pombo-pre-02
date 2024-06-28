@@ -633,6 +633,11 @@ footer .flex-footer {
     margin-bottom: 0.75rem;
 }
 
+.footer-conteudo {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .footer-social-midia {
     display: flex;
     gap: 1rem;
