@@ -934,6 +934,10 @@ footer .flex-footer {
 
     /*--- FOOTER ---*/
 
+    .flex-footer {
+        flex-direction: column;
+    }
+
     footer {
         padding: 50px 4%;
         box-shadow: 0 0 40px 10px #ffffff1d;
