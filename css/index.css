@@ -388,6 +388,7 @@ section.principal-manifesto  {
 
     section.principal-manifesto .manifesto-text p {
         padding: 0 0.5rem;
+        width: 380px;
     }
 
     section.principal-manifesto .manifesto-img img {
