@@ -253,6 +253,243 @@ section.principal-manifesto  {
     width: 500px;
 }
 
+
+/*-------- Estilo Formulario ---------*/
+
+section .formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+section.formulario .titulo {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+section.formulario h2 span {
+    color: #fc6c04;
+}
+
+section.formulario h2 {
+    align-items: center;
+    margin-left: 0px;
+}
+
+form {
+    background: transparent;
+}
+form input {
+    width: 150%;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+form textarea {
+    width: 150%;
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 80px 15px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+form input::placeholder {
+    color: #fff;
+}
+
+form textarea::placeholder {
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: right;
+    padding: auto;
+}
+
+
+form .btn-enviar input[type="submit"] {
+    width: 120px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+    height: 70px;
+    width: 150px;
+    
+    margin-bottom: 50px;
+}
+
+.formulario-campos {
+    align-items: left;
+}
+
+#btn-enviar {
+    width: 120px;
+    margin-left: 632px;
+    color: #fff;
+    background-color: #1caa50;
+    margin-top: -40px;
+}
+
+#btn-enviar:hover {
+    background-color: #fc6c04;
+    transform: scale(1)translateY(-2px);
+    box-shadow: 0 0 25px #fc6c04;
+}
+
+label  {
+    font-size: 19px;
+    color: #eeeeee;
+}
+
+#checkbox1 {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#caixa-text {
+    margin-bottom: 20px;
+}
+
+input[type="text"]{
+    background-color: rgba(0, 255, 0, 0.179);
+    color:white;
+    border: 2px solid #fff;
+}
+
+input[type="number"]{
+    background-color: rgba(0, 255, 0, 0.179);
+    color: white;
+    border: 2px solid #fff;
+}
+
+textarea[name="sua-mensagem"]{
+    background-color: rgba(0, 255, 0, 0.179);
+    color:white;
+    border: 2px solid #fff;
+}
+
+/*-------- Estilo Quem assinou ---------*/
+
+.flex-form-signature {
+    display: flex;
+}
+
+.quem-assinou {
+    border: 2px solid #fff;
+    width: 450px;
+    height: 505px;
+    margin-left: 200px;
+    border-radius: 20px;
+    background-color: rgba(0, 255, 0, 0.179)
+}
+
+.quem-assinou h2 {
+    position: relative;
+    margin-left: 30px;
+    left: 20px;
+    top: 30px;
+    
+}
+
+.quem-assinou h2 {
+    color: #fff;
+}
+
+
+.list-wrapper {
+    background-color: transparent;
+    width: 100%;
+    max-width: 700px;
+    max-height: 400px;
+    overflow-y: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0, .2);
+    margin-top: 40px;
+    border: 2px 0px 1px 2px solid orange;
+}
+
+.list-assinantes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list-item {
+    display: flex;
+    border-bottom: 1px solid #fff;
+    padding: 16px;
+    
+}
+
+.list-item__image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.list-item__content {
+    padding: 0 20px;
+    
+    flex-grow: 1;
+}
+
+.list-item__name {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+.list-item__email {
+    margin: 5px 0 0;
+    color: #fff;
+}
+
+.list-item:hover {
+    background-color: #fc6c04;
+    
+}
+
+.list-item__action {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    opacity: 0;
+    
+}
+
+.list-item:hover .list-item__action {
+    opacity: 0.3;
+}
+
 @media screen and (max-width: 1020px) {
     .principal-manifesto .flex-manifest {
         flex-direction: column-reverse;
