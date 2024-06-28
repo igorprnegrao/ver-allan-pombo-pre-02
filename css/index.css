@@ -880,34 +880,34 @@ footer .flex-footer {
     
     section.formulario .titulo {
         font-size: 35px;
-        margin-left: 2.5rem;
+        margin-left: 3rem;
     }   
     
     form {
-        max-width: 200px;
+        max-width: 225px;
         justify-content: center;
-        margin-left: 2.5rem;
+        margin-left: 3rem;
     }
 
     label {
-        font-size: 19px;
-        width: 250px;
-        margin-left: 10px;
+        font-size: 18px;
+        width: 230px;
+        margin-left: 9px;
     }
 
     #btn-enviar {
         margin-top: 15px;
         margin-left: 0.5rem;
         margin-bottom: 30px;
-        width: 290px;
+        width: 330px;
         display: block;
     }
 
     /*--- ASSINATURAS ---*/
 
     .quem-assinou {
-        width: 310px;
-        margin-left: 2.5rem;
+        width: 340px;
+        margin-left: 3rem;
     }
 
     .list-item__email {
@@ -918,8 +918,8 @@ footer .flex-footer {
 
     .container-img {
         width: 100%;
-        max-width: 320px;
-        margin-left: 2.5rem;
+        max-width: 350px;
+        margin-left: 3rem;
     }
 
     .slide-wrapper {
@@ -928,7 +928,7 @@ footer .flex-footer {
 
     .heading-1 {
         font-size: 25px;
-        margin-left: -0.625rem;
+        margin-left: -0.635rem;
         line-height: 40px;
     }
 
@@ -936,6 +936,7 @@ footer .flex-footer {
 
     .flex-footer {
         flex-direction: column;
+        gap: 20px;
     }
 
     footer {
@@ -944,11 +945,7 @@ footer .flex-footer {
         
     }
     
-    footer .flex {
-        flex-direction: column;
-        gap: 30px;
-        
-    }
+    
 
     .footer-logo-img {
         margin-top: -20px;
