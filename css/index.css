@@ -7,11 +7,12 @@
 
 body {
     background-image: url("../img/bg02-site-allan.png");
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 100vh;
     
+    background-position: center center;
+    
+    overflow: auto;
 }
 
 
@@ -610,6 +611,13 @@ textarea[name="sua-mensagem"]{
     bottom: -10px;
 }
 
+.image-item:target {
+    position: fixed;
+    width: 50%;
+    top: 200px;
+    left: 25%;
+}
+
 /*-------- Estilo Rodapé ---------*/
 
 footer  {
@@ -733,6 +741,11 @@ footer .flex-footer {
         flex-direction: column-reverse;
     } 
 
+    body {
+        background-image: url("../img/bg03-site-allan.jpg");
+        background-attachment: scroll;
+
+    }
     /*--- Cabeçalho ---*/
     .menu-desktop,
     .btn-contato {
