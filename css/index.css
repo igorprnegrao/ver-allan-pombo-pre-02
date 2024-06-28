@@ -871,4 +871,49 @@ footer .flex-footer {
         margin-top: -50px;
         margin-bottom: -40px;
     }
+
+    /*--- Formulario ---*/
+
+    .flex-form-signature {
+        flex-direction: column;
+    }
+    
+    section.formulario .titulo {
+        font-size: 35px;
+        margin-left: 2.5rem;
+    }   
+    
+    form {
+        max-width: 200px;
+        justify-content: center;
+        margin-left: 2.5rem;
+    }
+
+    label {
+        font-size: 19px;
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    #btn-enviar {
+        margin-top: 15px;
+        margin-left: 0.5rem;
+        margin-bottom: 30px;
+        width: 290px;
+        display: block;
+    }
+
+    /*--- ASSINATURAS ---*/
+
+    .quem-assinou {
+        width: 310px;
+        margin-left: 2.5rem;
+    }
+
+    .list-item__email {
+        font-size: 18px;
+    }
+
+    
+
 }
