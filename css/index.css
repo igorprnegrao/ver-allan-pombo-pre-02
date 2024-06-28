@@ -914,6 +914,57 @@ footer .flex-footer {
         font-size: 18px;
     }
 
+    /*--- GALERIA ---*/
+
+    .container-img {
+        width: 100%;
+        max-width: 320px;
+        margin-left: 2.5rem;
+    }
+
+    .slide-wrapper {
+        box-shadow: 0 0 25px #fc6c04;
+    }
+
+    .heading-1 {
+        font-size: 25px;
+        margin-left: -0.625rem;
+        line-height: 40px;
+    }
+
+    /*--- FOOTER ---*/
+
+    footer {
+        padding: 50px 4%;
+        box-shadow: 0 0 40px 10px #ffffff1d;
+        
+    }
     
+    footer .flex {
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+
+    .footer-logo-img {
+        margin-top: -20px;
+        
+    }
+
+    footer .line-footer {
+        text-align: center;
+        
+    }
+
+    footer .footer-localidade .titulo-h3 {
+        text-align: left;
+        margin-left: -61px;
+        
+    }
+
+    footer .footer-localidade #footer-list .footer-link {
+        margin-left: -61px;
+        
+    }
 
 }
