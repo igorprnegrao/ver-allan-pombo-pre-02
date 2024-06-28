@@ -490,6 +490,239 @@ textarea[name="sua-mensagem"]{
     opacity: 0.3;
 }
 
+/*-------- Estilo Galeria ---------*/
+
+.container-img {
+    max-width: 1260px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.slide-wrapper {
+    position: relative;
+}
+
+.heading-1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: -50px;
+    color: #fff;
+}
+
+.heading-1 span {
+    color: #fc6c04;
+}
+
+
+.slide-wrapper .slider-button {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: black;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.slide-wrapper .slider-button:hover {
+    background-color: #fc6c04;
+}
+
+.slide-wrapper .slider-button#prev-slider {
+    left: -20px;
+    display: none;
+}
+
+.slide-wrapper .slider-button#next-slider {
+    right: -20px;
+}
+
+.slide-wrapper .image-list {
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(14, 1fr);
+    
+}
+
+.slide-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+}
+
+
+.slide-wrapper .image-list .image-item {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.container-img .slider-scrollbar {
+    height: 20px;
+    width: 100%;
+    background-color: #fc6b044d;
+    display: flex;
+    align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+    height: 2px;
+    width: 100%;
+    background-color: #ccc ;
+    position: relative;
+    border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+    height: 5px;
+}
+
+
+
+.slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: black ;
+    border-radius: inherit;
+    cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-track :active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+
+/*-------- Estilo Rodapé ---------*/
+
+footer  {
+    padding: 60px 8%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    letter-spacing: 1px;
+    background-color: #1717177c;
+}
+
+footer .flex-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-conteudo .footer-logo-contato p {
+    color: #fff;
+}
+
+.footer-conteudo .footer-logo-contato h2 {
+    margin-bottom: 0.75rem;
+}
+
+.footer-social-midia {
+    display: flex;
+    gap: 1rem;
+    font-size: 30px;
+    margin-top: 1.5rem;
+}
+
+.footer-social-midia .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.4s; /*tempo de transição hover*/
+}
+
+.footer-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-social-midia .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#facebook {
+    background-color: #4267b3;
+}
+#whatsapp {
+    background-color: #25d366;
+}
+#x-twitter {
+    background-color: #000;
+}
+
+#tiktok {
+    background-color: #000;
+}
+
+#footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-logo-img {
+    position: relative;
+    left: 40px;
+}
+
+#footer-list .footer-link {
+    color: #d9d9d9;
+    transition: all 0.4s; /*tempo de transição hover*/
+}
+
+#footer-list h3 {
+    color: #fff;
+}
+
+.titulo-h3 {
+    font-size: 23px;
+}
+
+.footer-logo-p {
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    left: 17px;
+}
+
+#footer-list .footer-link:hover {
+    color: #fc6c04;
+}
+
+#footer-copyright {
+    padding: 20px 0;
+    background-color: #000;
+}
+
+#footer-copyright p {
+    color: #fff;
+    text-align: center;
+}
+
 @media screen and (max-width: 1020px) {
     .principal-manifesto .flex-manifest {
         flex-direction: column-reverse;
