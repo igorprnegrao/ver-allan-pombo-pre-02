@@ -870,13 +870,14 @@ footer .flex-footer {
 
     .manifesto-text h2 {
         font-size: 35px;
-        margin-left: 10px;
+        margin-left: 20px;
         
     }
 
     section.principal-manifesto .manifesto-text p {
         padding: 0 0.5rem;
-        width: 380px;
+        width: 350px;
+        margin-left: 20px;
     }
 
     section.principal-manifesto .manifesto-img img {
@@ -932,7 +933,7 @@ footer .flex-footer {
     .container-img {
         width: 100%;
         max-width: 350px;
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
 
     .slide-wrapper {
