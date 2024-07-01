@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('../images/bg02-site-allan.png');
+    background-image: url('../img/bg02-site-allan.png');
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,11 @@ a > span {
         background-attachment: scroll;
 
     }
-    
+
+    a {
+        margin-left: -70px;
+    }
+
     h1 {
         font-size: 28px;
         margin-left: 50px;
