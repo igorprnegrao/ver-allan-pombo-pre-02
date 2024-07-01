@@ -190,31 +190,50 @@ form .btn-enviar input:hover {
 
 section.bandeiras {
     padding: 80px 4%;
+    
 }
 
-section.bandeiras .band-flex {
+.bandeiras .band-flex {
+    margin-left: -200px;
+}
+
+#img-bandeiras {
+    width: 600px;
+}
+
+txt-bandeiras ul {
+    width: 600px;
+    
+}
+
+.band-flex {
     display: flex;
-    align-items: center;
     flex-direction: row-reverse;
-    gap: 60px;
+    gap: 50px;
+    
 }
-
+.listabandeiras {
+    
+}
 section.bandeiras .txt-bandeiras {
     color: #fff;
+    
 }
 
-.bandeiras .txt-bandeiras h2 {
+h2 {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 40px;
+    color: #fff;
 }
 
-.bandeiras .txt-bandeiras h2 span {
+h2 span {
     color: #fc6c04;
 }
 
 .bandeiras .txt-bandeiras ul {
     list-style: none;
+    
 }
 
 .txt-bandeiras ul li {
@@ -226,7 +245,8 @@ section.bandeiras .txt-bandeiras {
     color: #fff;
     opacity: 0.8;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
+
 }
 
 .txt-bandeiras ul li:hover {
@@ -241,7 +261,7 @@ section.bandeiras .txt-bandeiras {
 }
 
 .img-bandeiras {
-    margin-top: 70px;
+    margin-top: 5px;
 }
 
 
@@ -380,13 +400,22 @@ footer .flex-footer {
 }
 
 @media screen and (max-width: 1020px) {
+    
+    body {
+        background-image: url("../img/bg03-site-allan.jpg");
+        background-attachment: scroll;
+
+    }
+    
     .band-flex {
+        display: flex;
         flex-direction: column;
     }
+
     /*--- Cabeçalho ---*/
     .menu-desktop,
     .btn-contato {
-        display: none;
+    display: none;
     }
     
 
@@ -481,7 +510,22 @@ footer .flex-footer {
         margin-top: -44px;
     }
 
-    
+    /*--- Bandeiras ---*/
+
+    .listabandeiras {
+        width: 350px;
+        margin-left: 120px;
+    }
+
+    #img-bandeiras {
+        width: 350px;
+        margin-left: 120px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-left: 25px;
+    }
 
 
 
