@@ -358,9 +358,10 @@ footer .flex-footer {
 
     }
     
-    .band-flex {
+    .flex-pombo {
         display: flex;
         flex-direction: column;
+        gap: 20px;
     }
 
     /*--- Cabeçalho ---*/
@@ -459,4 +460,61 @@ footer .flex-footer {
         font-size: 15px;
         margin-top: -44px;
     }
+
+    /*-- Estilo Casa Pombo --*/
+
+    section.casa-pombo .txt-casa-pombo {
+        margin-left: 5px;
+        width: 320px;
+    }
+
+    #img-casa-pombo {
+        width: 320px;
+    }
+
+    h2 {
+        font-size: 28px;
+        margin-left: 50px;
+
+    }
+
+    #img-casa-pombo {
+        border-radius: 25px;
+        box-shadow: 0px 0px 10px 2px hsla(25, 98%, 50%, 0.199);
+        background-color: rgba(0, 128, 0, 0.163);
+        width: 300px;
+    }
+
+    /*--- FOOTER ---*/
+
+    .flex-footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer {
+        padding: 50px 4%;
+        box-shadow: 0 0 40px 10px #ffffff1d;
+    }
+    
+    .footer-logo-img {
+        margin-top: -20px;
+        
+    }
+
+    .footer-list {
+        margin-left: 150px;
+    }
+
+    .footer-localidade {
+        margin-left: -55px;
+    }
+
+    .footer-logo-img {
+        position: relative;
+        left: 10px;
+        width: 180px;
+    }
+
+
 }
