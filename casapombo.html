@@ -20,7 +20,7 @@
         <div class="interface">
             <div class="logo">
                 <a href="index.html">
-                    <img src="./images/logo-allan-2024.png"  width="200px" alt="logo do vereador allan pombo">
+                    <img src="./img/logo-allan-2024.png"  width="200px" alt="logo do vereador allan pombo">
                 </a>
             </div> <!-- logo -->
             <nav class="menu-desktop">
@@ -32,24 +32,47 @@
                     <li class="link-nav"><a href="#redes">Redes Sociais</a></li>
                 </ul>
             </nav>
-            <div class="btn-contato">
-                <a href="#contato">
-                    <button>Contato</button>
-                </a>
-            </div> <!-- btn-contato -->
+            <div class="btn-abrir-mobile" id="btn-menu">
+                <i class="bi bi-list" id="icone"></i>
+            </div> <!-- btn-abrir-mobile -->
+                <div class="menu-mobile" id="menu-mobile">
+                    <div class="btn-fechar">
+                        <i class="bi bi-x-lg"></i>
+                    </div> <!-- btn-fechar -->
+                    <nav>
+                        <ul>
+                            <li><a href="./sobremim.html">Sobre mim</a></li>
+                            <li><a href="./bandeiras.html">Bandeiras</a></li>
+                            <li><a href="./casapombo.html">Casa Pombo</a></li>
+                            <li><a href="./mandato.html">Mandato</a></li>
+                            <li><a href="#redes">Redes Sociais</a></li>
+                        </ul>
+                    </nav>
+                </div> <!-- menu-mobile -->
+            <div class="overlay-menu" id="overlay-menu">
+                
+            </div> <!-- overlay-menu -->
+            
+            <div class="overlay-menu" id="overlay-menu">
+            
+            </div> <!-- overlay-menu -->
 
         </div> <!-- interface -->
     </header>
+    <div class="buttonzap">
+        <a href="https://www.whatsapp.com/channel/0029VaDmxfz17EmnED2CkK36" class="icon" target="_blank"><i class="fab fa-whatsapp"></i><h2 class="h2-icon"></h2></a>        
+    </div>
     <section class="casa-pombo" id="pombo">
             <div class="interface">
-                <div class="flex">
+                <h2>
+                    ESPAÇO CULTURAL E SOCIAL <span>CASA POMBO.</span>
+                </h2>
+                <div class="flex-pombo">
                     <div class="img-casa-pombo">
-                        <img src="./images/logo-casa-pombo.png" id="img-casa-pombo" width="350px" alt="">
+                        <img src="./img/logo-casa-pombo.png" id="img-casa-pombo" width="350px" alt="">
                     </div> <!-- img-casa-pombo -->
                     <div class="txt-casa-pombo">
-                        <h2>
-                            ESPAÇO CULTURAL E SOCIAL <span>CASA POMBO.</span>
-                        </h2>
+                        
                         <P>
                             A Casa Pombo é um espaço político, cultural e social aberto para atender as demandas da nossa gente. É também um lugar
                             para inspirar, conectar e potencializar mulheres, pretos, ribeirinhos, pessoas LGBTQIA+ e periféricas a seguirem movendo
@@ -62,9 +85,9 @@
         
     <footer id="redes">
         <div class="footer-conteudo">
-            <div class="flex">
+            <div class="flex-footer">
                 <div class="footer-logo-contato">
-                    <h2><img src="./images/logo-allan-2024.png" width="180px" class="footer-logo-img" alt=""></h2>
+                    <h2><img src="./img/logo-allan-2024.png" width="180px" class="footer-logo-img" alt=""></h2>
                     <p class="footer-logo-p">Mandato Trabalhista Popular</p>
                     <div class="footer-social-midia">
                         <a href="https://www.instagram.com/allanpombopdt" target="_blank" class="footer-link" id="instagram">
@@ -121,8 +144,7 @@
                 </div> <!-- footer-localidade -->
             </div> <!-- flex -->
         </div> <!-- footer-conteudo -->
-
-        
     </footer>
+    <script src="./js/casapombo.js"></script>
 </body>
 </html>
