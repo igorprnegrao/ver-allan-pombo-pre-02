@@ -31,6 +31,7 @@ header .interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 60px;
 }
 
 header a {
@@ -192,6 +193,7 @@ form .btn-enviar input:hover {
 
 .flex-sobremim {
     display: flex;
+    gap: 30px;
 }
 
 section.sobre-mim {
@@ -201,7 +203,7 @@ section.sobre-mim {
 section.sobre-mim .flex-sobremim {
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    
 }
 
 .sobre-mim .txt-sobre-mim {
