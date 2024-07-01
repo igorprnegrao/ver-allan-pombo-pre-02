@@ -463,14 +463,14 @@ footer .flex-footer {
     /*---Sobre Mim---*/
 
     #img-sobre-mim {
-        width: 21.875rem;
+        width: 19rem;
         margin-top: -20px;
         margin-bottom: -20px;
     }
     .sobre-mim .txt-sobre-mim p {
         padding: 0 0.5rem;
         width: 350px;
-        margin-left: 20px;
+        margin-left: 5px;
     }
     section.sobre-mim .flex-sobremim {
         gap: 10px;
