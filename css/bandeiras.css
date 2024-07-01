@@ -517,6 +517,10 @@ footer .flex-footer {
 
     /*--- Bandeiras ---*/
 
+    .band-flex {
+        gap: 25px;
+    }
+
     .listabandeiras {
         width: 350px;
         margin-left: 120px;
@@ -529,7 +533,7 @@ footer .flex-footer {
 
     h2 {
         font-size: 30px;
-        margin-left: 25px;
+        margin-left: -80px;
     }
 
 
