@@ -734,9 +734,7 @@ footer .flex-footer {
     text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
-    
-}
+
 
 @media screen and (max-width: 768px) {
     .principal-manifesto .flex-manifest {
@@ -863,7 +861,7 @@ footer .flex-footer {
     }
 
     .manifesto-img img {
-    width: 400px;
+        width: 400px;
     }
 
     section.principal-manifesto .flex-manifest {
@@ -973,4 +971,37 @@ footer .flex-footer {
     .footer-localidade {
         margin-left: -50px;
     }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .principal-manifesto .flex-manifest {
+        flex-direction: column-reverse;
+    } 
+
+    body {
+        background-image: url("../img/bg03-site-allan.jpg");
+        background-attachment: scroll;
+
+    }
+    /*--- Cabeçalho ---*/
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+    
+
+    .logo img {
+        width: 150px;
+        padding-right: -30px;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
+    #manifest-title {
+        left: 1000px;
+    }
+
+    
 }
