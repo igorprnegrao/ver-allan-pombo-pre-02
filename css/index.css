@@ -734,7 +734,27 @@ footer .flex-footer {
     text-align: center;
 }
 
+/*--- stilo modal ---*/
 
+.modal  {
+    background-image: url(/img/modal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 700px;
+    height: 1000px;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 450px;
+    line-height: 15px;
+}
+
+.modal p {
+    padding: 20px;
+}
 
 @media screen and (max-width: 768px) {
     .principal-manifesto .flex-manifest {
