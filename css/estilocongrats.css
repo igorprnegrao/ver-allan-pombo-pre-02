@@ -73,4 +73,13 @@ a > span {
         font-size: 28px;
         margin-left: 50px;
     }
+
+    .lgpd {
+        width: 75%;
+    }
+
+    .lgpd a {
+    margin-left: 5px;
+}
+
 }
