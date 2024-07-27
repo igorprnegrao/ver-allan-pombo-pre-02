@@ -734,27 +734,51 @@ footer .flex-footer {
     text-align: center;
 }
 
-/*--- stilo modal ---*/
 
-.modal  {
-    background-image: url(/img/modal.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 700px;
-    height: 1000px;
+
+/*-------- Estilo Cookies ---------*/
+
+.cookies-msg {
+    width: 80%;
+    background-color: #fc6b04ee;
+    position: fixed;
+    bottom:10%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 15px;
+    display: none;
 }
 
-.modal h3 {
+.cookies-msg.mostrar {
+    display: block;
+}
+
+.flex-cookies {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 0px;
+}
+
+.cookies-txt  {
     color: #fff;
-    font-size: 40px;
-    margin-bottom: 450px;
-    line-height: 15px;
+    padding: 20px;
+    line-height: 25px;
 }
 
-.modal p {
-    padding: 20px;
+
+.cookies-msg .cookies-btn .b-btn {
+    background-color: #1caa50ee;
+    color: #FFF;
+    font-weight: 700;
+    margin: 0;
+    font-size: 18px;
+    padding: 50% 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 15px 15px 0;
 }
+
 
 @media screen and (max-width: 768px) {
     .principal-manifesto .flex-manifest {
