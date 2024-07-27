@@ -1015,6 +1015,19 @@ footer .flex-footer {
     .footer-localidade {
         margin-left: -50px;
     }
+
+    /*-------- Estilo Cookies ---------*/
+
+    .flex-cookies {
+        flex-direction: column;
+    }
+
+    .cookies-msg .cookies-btn .b-btn {
+        border-radius: 0px 0px 15px 15px ;
+        padding: 20px 138px;
+    }
+
+    
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -1046,6 +1059,10 @@ footer .flex-footer {
     #manifest-title {
         left: 1000px;
     }
+
+    
+
+
 
     
 }
