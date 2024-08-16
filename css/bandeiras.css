@@ -207,7 +207,6 @@ section.bandeiras .interface {
 
 txt-bandeiras ul {
     width: 600px;
-    
 }
 
 .band-flex {
@@ -216,9 +215,8 @@ txt-bandeiras ul {
     gap: 100px;
     
 }
-.listabandeiras {
-    
-}
+
+
 section.bandeiras .txt-bandeiras {
     color: #fff;
     
@@ -351,7 +349,7 @@ footer .flex-footer {
 
 .footer-logo-img {
     position: relative;
-    left: 40px;
+    left: 1px;
 }
 
 #footer-list .footer-link {
@@ -371,7 +369,7 @@ footer .flex-footer {
     color: #fff;
     font-size: 16px;
     position: relative;
-    left: 17px;
+    left: 25px;
 }
 
 #footer-list .footer-link:hover {

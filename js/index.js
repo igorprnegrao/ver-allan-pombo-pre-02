@@ -18,7 +18,7 @@ const manipularEnviar = (event) => {
 
   //Função Post que vai enviar para o endpoint da api sheet monkey
   // através do objeto iremos enviar via json as strings para nossa planilha
-  fetch("https://api.sheetmonkey.io/form/9QeWZJqn8RU9AdQiiBNXBu", {
+  fetch("", {
     method: "post",
     headers: {
       Accept: "application/json",

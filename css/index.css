@@ -189,6 +189,10 @@ form .btn-enviar input:hover {
 
 /*------  faixa Manifesto -----*/
 
+.manifesto-img {
+    margin-top: 80px;
+}
+
 .manifesto-titulo img {
     align-items: center;
     width: 230px;
@@ -217,7 +221,7 @@ section.principal-manifesto {
 section.principal-manifesto .flex-manifest {
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 50px;
 }
 
 .manifesto-text h2  {
@@ -697,7 +701,7 @@ footer .flex-footer {
 
 .footer-logo-img {
     position: relative;
-    left: 40px;
+    left:40px;
 }
 
 #footer-list .footer-link {
@@ -715,9 +719,9 @@ footer .flex-footer {
 
 .footer-logo-p {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     position: relative;
-    left: 17px;
+    left: 15px;
 }
 
 #footer-list .footer-link:hover {
