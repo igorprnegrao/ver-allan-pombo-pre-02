@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("../img/bg02-site-allan.png");
+    background-image: url("../img/artistic-blurry-colorful-wallpaper-background.jpg");
     background-size: auto;
     background-attachment: fixed;
     background-position: center center;
@@ -21,14 +21,19 @@ body {
 /*------  Estilo CABEÇALHO -----*/
 
 header {
-    padding: 30px 4%;
+    padding: 30px 5%;
 }
 
 header .interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
+    width: 100%;
+    max-width: none;
+}
+
+header nav.menu-desktop {
+    margin-left: auto;
 }
 
 header a {
@@ -353,7 +358,7 @@ footer .flex-footer {
 
 @media screen and (max-width: 768px) {
     body {
-        background-image: url("../img/bg03-site-allan.jpg");
+        background-image: url("../img/artistic-blurry-colorful-wallpaper-background.jpg");
         background-attachment: scroll;
 
     }
@@ -372,7 +377,6 @@ footer .flex-footer {
 
     .logo img {
         width: 150px;
-        padding-right: -30px;
     }
 
     .menu-desktop {

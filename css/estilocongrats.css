@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('../img/bg02-site-allan.png');
+    background-image: url('../img/artistic-blurry-colorful-wallpaper-background.jpg');
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ a > span {
 @media screen and (max-width: 1064px) {
     
     body {
-        background-image: url("../img/bg03-site-allan.jpg");
+        background-image: url("../img/artistic-blurry-colorful-wallpaper-background.jpg");
         background-attachment: scroll;
 
     }
