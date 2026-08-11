@@ -439,7 +439,7 @@ footer .flex-footer {
   /*--- mobile ---*/
 
   .menu-mobile {
-    background-color: rgb(3, 127, 3);
+    background-color: rgb(18, 49, 117, 0.9);
     height: 100%;
     position: fixed;
     top: 0;
@@ -457,7 +457,7 @@ footer .flex-footer {
   }
   .menu-mobile nav ul li a {
     display: block; /* 2 none aqui */
-    color: #fc6c04;
+    color: #fff;
     font-size: 20px;
     font-weight: 400;
     padding: 20px 8%;
@@ -465,12 +465,12 @@ footer .flex-footer {
 
   .menu-mobile nav ul li a:hover {
     background-color: #ffffffa4;
-    color: #000;
+    color: #fff;
     display: block;
   }
 
   .menu-mobile .btn-fechar i {
-    color: #fc6c04;
+    color: #fff;
     font-size: 30px;
   }
 

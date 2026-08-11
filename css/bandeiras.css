@@ -432,7 +432,7 @@ footer .flex-footer {
   /*--- mobile ---*/
 
   .menu-mobile {
-    background-color: rgb(3, 127, 3);
+    background-color: rgb(18, 49, 117, 0.9);
     height: 100%;
     position: fixed;
     top: 0;
@@ -450,7 +450,7 @@ footer .flex-footer {
   }
   .menu-mobile nav ul li a {
     display: block; /* 2 none aqui */
-    color: #fc6c04;
+    color: #fff;
     font-size: 20px;
     font-weight: 400;
     padding: 20px 8%;
@@ -463,7 +463,7 @@ footer .flex-footer {
   }
 
   .menu-mobile .btn-fechar i {
-    color: #fc6c04;
+    color: #fff;
     font-size: 30px;
   }
 
@@ -472,7 +472,7 @@ footer .flex-footer {
   }
 
   .btn-abrir-mobile i {
-    color: #fc6c04;
+    color: #fff;
     font-size: 50px;
     left: -25px;
     display: block; /*  2 none aqui */
@@ -610,5 +610,26 @@ footer .flex-footer {
     margin: 0;
     padding: 0;
     text-align: center;
+  }
+
+    .menu-mobile {
+    display: block;
+    height: 100%;
+    right: 0;
+    background-color: rgb(18, 49, 117, 0.9);
+  }
+  .menu-mobile .btn-fechar i {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .btn-abrir-mobile i {
+    display: block;
+    color: #fff;
+    font-size: 50px;
+  }
+
+  .menu-mobile nav ul li a {
+    color: #ffffff;
   }
 }
